@@ -9,7 +9,7 @@ Convert “WebAfrica_Web_Design_960.psd”
  Implement basic Google maps page.
 
  ### Task 3
-[![Website brief audit](http://creativescene.co.za/webafrica/webafrica-audit.png)]
+![Website brief audit](http://creativescene.co.za/webafrica/webafrica-audit.png)
  Webafrica Website Review
  1. Firstly reduce website speed load time currently sitting at 6.4sec based on audit done with google lighthouse
  2. Update colour scheme
@@ -29,4 +29,4 @@ You must have **npm** and **Gulp** installed globally on your machine in order t
 
 ## Preview
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)**
-[![Web Africa psd preview](http://creativescene.co.za/webafrica/WebAfrica_Web_Design_960.jpg)]
+![Web Africa psd preview](http://creativescene.co.za/webafrica/WebAfrica_Web_Design_960.jpg)
