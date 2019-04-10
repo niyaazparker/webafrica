@@ -9,8 +9,9 @@ Convert “WebAfrica_Web_Design_960.psd”
  Implement basic Google maps page.
 
  ### Task 3
-![Website brief audit](http://creativescene.co.za/webafrica/webafrica-audit.png)
  Webafrica Website Review
+![Website brief audit](http://creativescene.co.za/webafrica/webafrica-audit.png)
+ 
  1. Firstly reduce website speed load time currently sitting at 6.4sec based on audit done with google lighthouse
  2. Update colour scheme
  4. Update header currently seems to old school
