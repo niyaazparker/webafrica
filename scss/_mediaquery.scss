@@ -116,4 +116,10 @@
     .carousel-inner {
         top: 0;
     }
+    .masthead-content .btn-outline-primary {
+        background: $white;
+    }
+    .masthead-content .btn-outline-primary:hover,.masthead-content .btn-outline-primary:focus {
+        background: $blue-100;
+    }
 }

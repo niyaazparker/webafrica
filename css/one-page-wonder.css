@@ -195,25 +195,25 @@ ul.footer-list li ul li {
   box-shadow: none !important;
 }
 
-.wbeform input::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-size: 0.7rem;
   font-style: italic;
 }
 
-.wbeform input::-moz-placeholder {
+input::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 0.7rem;
   font-style: italic;
 }
 
-.wbeform input:-ms-input-placeholder {
+input:-ms-input-placeholder {
   /* IE 10+ */
   font-size: 0.7rem;
   font-style: italic;
 }
 
-.wbeform input:-moz-placeholder {
+input:-moz-placeholder {
   /* Firefox 18- */
   font-size: 0.7rem;
   font-style: italic;
@@ -325,6 +325,16 @@ ul.footer-list li ul li {
   transform: translate3d(0, 0, 0);
 }
 
+input#web-africa {
+  background-color: #fff;
+  border-radius: 0 !important;
+  padding: 15px 15px;
+  border: 1px solid #ececed;
+  height: auto;
+  width: 100%;
+  font-size: 1.125rem;
+}
+
 #features {
   background: url("/img/facebg.png");
   background-size: auto auto;
@@ -380,6 +390,11 @@ ul.footer-list li ul li {
 ul.steps li {
   width: 19%;
   vertical-align: top;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }
 
 .navbar-custom {
@@ -746,5 +761,11 @@ ul.nav-tabs li a:hover {
   }
   .carousel-inner {
     top: 0;
+  }
+  .masthead-content .btn-outline-primary {
+    background: #fff;
+  }
+  .masthead-content .btn-outline-primary:hover, .masthead-content .btn-outline-primary:focus {
+    background: #00aee4;
   }
 }
