@@ -1,0 +1,39 @@
+#features {
+	background: $bg-one;
+	@include bg;
+}
+#packages {
+	background: $bg-one;
+	@include bg;
+}
+#design {
+	background: $bg-one;
+	@include bg;
+}
+#process {
+	background: $bg-one;
+	@include bg;
+}
+
+.bg-a {
+	background: $bg-a;
+	@include bg;
+}
+.bg-color-a {
+	background:$blue-300;
+}
+// Tabs
+.tab-content {
+	min-height: 400px;
+	.tab-pane {
+		min-height: 400px;
+	}
+}
+
+// BG
+.gradient-bg {
+	background: linear-gradient(to right, $blue-400 , $blue-500);
+}
+
+// Steps
+ul.steps li {width: 19%; vertical-align: top;}

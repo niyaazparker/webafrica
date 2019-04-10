@@ -5,4 +5,13 @@
 
 @mixin body-font {
   font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: $gray-500;
+}
+
+@mixin bg {
+  background-size:auto auto;
+  background-position:center left;
+  background-repeat:no-repeat;
+
 }
