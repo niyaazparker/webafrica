@@ -26,3 +26,9 @@ h6 {
 .rounded-pill {
   border-radius: 5rem;
 }
+.border-right {
+	border-right: 1px solid $gray-100;
+}
+
+// Text colors
+.blue-text {color: $blue-100;}

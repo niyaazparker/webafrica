@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -14,8 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn-xl {
@@ -34,10 +33,18 @@ h6 {
   border-radius: 5rem;
 }
 
+.border-right {
+  border-right: 1px solid #eeeeee;
+}
+
+.blue-text {
+  color: #00aee4;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
 }
 
 .navbar-custom .navbar-brand {
