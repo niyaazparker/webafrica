@@ -29,6 +29,8 @@ h6 {
 
 button {
   text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 ul, ul li {
@@ -519,7 +521,7 @@ ul.steps li {
 }
 
 .navbar-dark .navbar-toggler {
-  border: 0;
+  border: none;
 }
 
 header.masthead {
@@ -527,7 +529,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url("/img/header-1.png");
+  background-image: url("../img/header-1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
@@ -670,9 +672,10 @@ a.white-outline:hover {
 }
 
 .btn-mid {
-  min-width: 130px;
+  min-width: 150px;
   font-size: 0.8rem;
   border-radius: 5px;
+  padding: 8px 15px;
 }
 
 button.white-outline:hover {

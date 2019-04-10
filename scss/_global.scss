@@ -11,7 +11,7 @@ h5,
 h6 {
   @include heading-font;
 }
-button {text-transform: uppercase;}
+button {text-transform: uppercase; font-family: 'Source Sans Pro', sans-serif; font-weight: 600}
 ul, ul li {
   list-style-type: none;
 }

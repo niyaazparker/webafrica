@@ -29,5 +29,5 @@ After downloading, run **'npm start'** in the root of the project, It should run
 You must have **npm** and **Gulp** installed globally on your machine in order to use these features.
 
 ## Preview
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)**
+**[View Live Preview](http://creativescene.co.za/webafrica/)**
 ![Web Africa psd preview](http://creativescene.co.za/webafrica/WebAfrica_Web_Design_960.jpg)
