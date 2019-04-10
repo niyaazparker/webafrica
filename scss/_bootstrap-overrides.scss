@@ -45,6 +45,12 @@
     border-color: $blue-200;
 
 }
+a.btn-outline-primary.white-outline:hover {
+  border-color: $blue-200;
+}
+a.white-outline:hover {
+  border: 2px solid #00a6dc !important;
+}
 .btn-group-lg > .btn, .btn-lg {
    padding: 10px 15px !important;
     min-width: 200px;
@@ -84,19 +90,16 @@ ul.nav-tabs {
 
 // Carousel
 .carousel-indicators {
-  margin-bottom: -100px;
+  margin-bottom: -30px;
+  
   li {
     width: 15px;
     height: 15px;
     border-radius: 100%;
+    border:1px solid $blue-100;
+  }
+  li.active {
+    background: $blue-100;
   }
 }
-.carousel-inner {
-  top: 154px;
-  .carousel-item {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
+

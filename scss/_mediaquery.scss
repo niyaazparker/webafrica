@@ -1,0 +1,119 @@
+
+@media (max-width: 1024px) {
+    .hidden-m {display: none}
+    ul.steps li {
+        width: 48%;
+        vertical-align: top;
+        margin-bottom: 30px;
+    }
+    header.masthead {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 135px;
+        margin-bottom: 40px;
+    }
+    img.responsive {
+        width:100%;
+        height: auto;
+    }
+    ul.steps li {
+        width: 32%;
+    }
+    .hovereffect .overlay {
+        padding: 5px 20px;
+    }
+
+    // fonts
+    .font-3 {
+        line-height: 3.2rem;
+    }
+}
+@media (min-width: 1024px) {
+    .hidden-l {display: none}
+    .hidden-m {display: block}
+}
+@media (max-width: 768px) {
+    header.masthead .masthead-content .masthead-subheading {
+    margin-top:1rem !important;
+    color: $gray-300;
+    }
+    header.masthead {
+        margin-top: 70px;
+    }
+    .navbar-dark .navbar-toggler {
+        color: $blue-100;
+        border-color: $blue-100;
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(25, 174, 206, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    }
+    ul.steps li {
+        width: 31%;
+    }
+    
+    ul.links li {
+        width: 18%;
+        font-size: $smallfont;
+    }
+    footer div {
+        font-size:$smallfont;
+        padding: 5px 0;
+    }
+    .hovereffect .overlay {
+        padding: 22px 20px;
+    }
+    // Test truncate
+    .truncate {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 500px) { 
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    .text-center-s {text-align: center}
+    .hidden-s {display: none}
+    .navbar-brand {border: none !important;}
+    .btn-m-width {
+        width: 150px;
+        display: inline-block;
+        min-width: 150px;
+        font-size: $bodyfont;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 1rem;
+    }
+    ul.nav-tabs li {
+        margin-right: 0px;
+    }
+    ul.steps li {
+        width: 100%;
+    }
+    ul.links li {
+        width: 47%;
+        font-size: .7rem;
+    }
+    .no-truncate-m {
+        width: 100%;
+        overflow: initial;
+        white-space: normal;
+        text-overflow: initial;
+    }
+    .w-100-s {
+        width: 100%;
+        display: inline-block;
+    }
+    footer div {
+        font-size:$bodyfont;
+        padding: 10px 0;
+        span {margin-bottom: 10px;}
+    }
+    .carousel-inner {
+        top: 0;
+    }
+}

@@ -63,6 +63,8 @@ ul, ul li {
 .green-text {color: $green-100;}
 .green-text-alt {color: $green-200;}
 
+
+
 // Font size
 .font-1 {font-size: $bodyfont;}
 .font-2 {font-size: $bigfont;line-height: 42px;}
@@ -132,6 +134,9 @@ ul.footer-list li ul li{
   cursor: default;
   background: #42b078;
 }
+.effect-1 {background: #00b3e5;}
+.effect-2 {background: #adcb44;}
+.effect-3 {background: #fbd159;}
 
 .hovereffect .overlay {
   width: 100%;
@@ -157,8 +162,8 @@ ul.footer-list li ul li{
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.2;
+  filter: alpha(opacity=60);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
