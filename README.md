@@ -12,7 +12,7 @@ Convert “WebAfrica_Web_Design_960.psd”
  Webafrica Website Review
 ![Website brief audit](http://creativescene.co.za/webafrica/webafrica-audit.png)
  
-1. Firstly reduce website speed load time currently sitting at 7sec complete load time.Website has total of 84 Request.
+1. Firstly reduce website speed load time currently sitting at 6.4sec complete load time.Website has total of 84 Request.
 - This page has 29 external Javascript scripts & 7 external stylesheets . By combining scripts together and stylesheets together could lower amount of HTTP request and speed up load time.
 - There are 18 static components  without far-future expiration date that could have expired headers added to it for giving returning users much quicker response time.
 - These 4 static components could be added to a cdn for much quick response
@@ -33,7 +33,7 @@ Convert “WebAfrica_Web_Design_960.psd”
 6. Make the fibre package carousel (fibre page) auto scroll, i did not even notice that it was carousel due to the large amounts of blue being used in that section, the carousel navigation buttons seem to be competing with the many info popover icons and the floating chat button.
 7. Streamline the sections that have many info icons, some list items dont require explaining as the title is self explanatory. These sections just seem to overcrowded with info popovers
 8. Apply more consistency with buttons, some have hover states others dont as well as border radius's also lack in consistency,Text & icon within buttons seem bit squashed so applying some more padding should give it the relevant even breathing space. 
-9. Include more interactive elements such as subtle animations on hover and click, eg: on mobile animate the burger menu to the 'x'
+9. Include more interactive elements such as subtle animations on hover and click, eg: on mobile animate the burger menu to the 'x', Also perhaps a interactive Infographic, those are a fantastic tools to show an idea or how something works.
 10. Upon inspecting the layout i found the class naming convention is self explanatory easy to figure however to improve on this i possibly would introduce the BEM or SMACS naming convention as it makes your code scale able and modular, thus increasing productivity and facilitating teamwork for more info on this http://getbem.com/ or http://smacss.com/.
 11. Upon inspecting the fibre/adsl/lte map locator on home page i noticed the colour codes for the network service don't match up, eg: fibre being purple on the map doesn't indicate its purple on the right side or check box. I would indicate the various color codes for the services available as the user might not notice this.
 
